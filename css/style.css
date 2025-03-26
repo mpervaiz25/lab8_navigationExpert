@@ -16,3 +16,15 @@
   left: 50%; /* Centers the list horizontally */
   float: left;/* Ensures the list floats left within its container */
 }
+#main-navbar ul li {
+  float: left; /* Aligns list items horizontally */
+  position: relative;
+  right: 50%;
+  display: block; /* Ensures the list items behave as block elements */
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;/* Adds space inside the link for better readability */
+  color: #fff;/* Sets the link text color to white */
+  text-decoration: none; /* Removes the underline from the links */
+}

@@ -1,3 +1,9 @@
 #main-navbar {
   background-color: blue;
   overflow: hidden; /*make sures no overflowing content is visible*/
+  
+#navbar-container {
+  float: left; /*Aligns the navbar to the left*/
+  width: 100%; /*makes sure the navbar goes across the width of the full page*/
+  position: relative;
+}

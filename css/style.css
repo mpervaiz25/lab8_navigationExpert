@@ -7,3 +7,12 @@
   width: 100%; /*makes sure the navbar goes across the width of the full page*/
   position: relative;
 }
+
+#main-navbar ul {
+  list-style-type: none; /*Removes default bullet points from the list */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%; /* Centers the list horizontally */
+  float: left;/* Ensures the list floats left within its container */
+}

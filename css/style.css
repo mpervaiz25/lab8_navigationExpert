@@ -28,3 +28,34 @@
   color: #fff;/* Sets the link text color to white */
   text-decoration: none; /* Removes the underline from the links */
 }
+#main-navbar ul li a:hover {
+  background-color: #000; /* Changes the background to black when hovered over */
+}
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
